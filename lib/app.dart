@@ -15,6 +15,7 @@ class _TaskManagerState extends State<TaskManager> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       navigatorKey: TaskManager.navigatorKey,
       title: 'Task manager',
       home: const SplashScreen(),
